@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Qual o prazo de devolução?",
+        "expected_chunk_prefixes": [
+            "pol-001-politica-devolucao-3-1-prazo-geral"
+        ],
+        "recovered_chunks": [
+            "pol-001-politica-devolucao-3-5-custos-de-devolucao",
+            "pol-001-politica-devolucao-3-3-procedimento-de-devolucao",
+            "pol-001-politica-devolucao-3-1-prazo-geral",
+            "pol-001-politica-devolucao-3-2-excecoes-ao-prazo-geral"
+        ],
+        "matched": true,
+        "scores": [
+            0.6146,
+            0.5272,
+            0.4,
+            0.3516
+        ],
+        "ranking_scores": [
+            1.1579,
+            1.0705,
+            1.0634,
+            1.015
+        ]
+    },
+    {
+        "question": "Posso devolver carga perigosa?",
+        "expected_chunk_prefixes": [
+            "pol-001-politica-devolucao-3-2-excecoes-ao-prazo-geral",
+            "faq-atendimento-item-3-cliente-perguntou-se-pode-devolver-carga-perigosa-o-que-respondo"
+        ],
+        "recovered_chunks": [
+            "pol-001-politica-devolucao-3-2-excecoes-ao-prazo-geral",
+            "faq-atendimento-item-3-cliente-perguntou-se-pode-devolver-carga-perigosa-o-que-respondo",
+            "pol-001-politica-devolucao-3-5-custos-de-devolucao",
+            "pol-001-politica-devolucao-3-1-prazo-geral"
+        ],
+        "matched": true,
+        "scores": [
+            0.4418,
+            0.5433,
+            0.4994,
+            0.3321
+        ],
+        "ranking_scores": [
+            1.123,
+            0.8671,
+            0.8344,
+            0.7808
+        ]
+    },
+    {
+        "question": "Qual o SLA do cliente Gold?",
+        "expected_chunk_prefixes": [
+            "sla-2024-tabela-sla-clientes-2-tabela-de-slas"
+        ],
+        "recovered_chunks": [
+            "sla-2024-tabela-sla-clientes-1-classificacao-de-clientes",
+            "sla-2024-tabela-sla-clientes-2-tabela-de-slas",
+            "sla-2024-tabela-sla-clientes-5-medicao-e-reportes",
+            "sla-2024-tabela-sla-clientes-4-penalidades-por-descumprimento"
+        ],
+        "matched": true,
+        "scores": [
+            0.5129,
+            0.511,
+            0.6292,
+            0.5872
+        ],
+        "ranking_scores": [
+            1.1729,
+            1.091,
+            1.0692,
+            1.0272
+        ]
+    },
+    {
+        "question": "Qual o SLA do cliente Platinum?",
+        "expected_chunk_prefixes": [
+            "sla-2024-tabela-sla-clientes-1-classificacao-de-clientes",
+            "faq-atendimento-item-15-cliente-diz-que-e-platinum-existe-esse-tier"
+        ],
+        "recovered_chunks": [
+            "sla-2024-tabela-sla-clientes-1-classificacao-de-clientes",
+            "faq-atendimento-item-15-cliente-diz-que-e-platinum-existe-esse-tier",
+            "sla-2024-tabela-sla-clientes-2-tabela-de-slas",
+            "sla-2024-tabela-sla-clientes-5-medicao-e-reportes"
+        ],
+        "matched": true,
+        "scores": [
+            0.4805,
+            0.6129,
+            0.4573,
+            0.5664
+        ],
+        "ranking_scores": [
+            1.2305,
+            1.0029,
+            0.9773,
+            0.9464
+        ]
+    },
+    {
+        "question": "Frete para 600kg para Manaus?",
+        "expected_chunk_prefixes": [
+            "proc-042-v2-frete-especial-revisado-2-formula-de-calculo",
+            "proc-042-v2-frete-especial-revisado-2-1-multiplicadores-regionais-atualizados-em-novembro-2023"
+        ],
+        "recovered_chunks": [
+            "proc-042-v2-frete-especial-revisado-2-formula-de-calculo",
+            "proc-042-frete-especial-v1-2-formula-de-calculo",
+            "proc-042-v2-frete-especial-revisado-2-1-multiplicadores-regionais-atualizados-em-novembro-2023",
+            "proc-042-frete-especial-v1-2-1-multiplicadores-regionais"
+        ],
+        "matched": true,
+        "scores": [
+            0.4536,
+            0.4684,
+            0.3029,
+            0.3326
+        ],
+        "ranking_scores": [
+            1.0222,
+            0.977,
+            0.9543,
+            0.924
+        ]
+    }
+]

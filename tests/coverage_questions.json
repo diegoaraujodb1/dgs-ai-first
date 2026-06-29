@@ -1,0 +1,35 @@
+[
+    {
+        "question": "Qual o prazo de devolução?",
+        "expected_chunk_prefixes": [
+            "pol-001-politica-devolucao-3-1-prazo-geral"
+        ]
+    },
+    {
+        "question": "Posso devolver carga perigosa?",
+        "expected_chunk_prefixes": [
+            "pol-001-politica-devolucao-3-2-excecoes-ao-prazo-geral",
+            "faq-atendimento-item-3-cliente-perguntou-se-pode-devolver-carga-perigosa-o-que-respondo"
+        ]
+    },
+    {
+        "question": "Qual o SLA do cliente Gold?",
+        "expected_chunk_prefixes": [
+            "sla-2024-tabela-sla-clientes-2-tabela-de-slas"
+        ]
+    },
+    {
+        "question": "Qual o SLA do cliente Platinum?",
+        "expected_chunk_prefixes": [
+            "sla-2024-tabela-sla-clientes-1-classificacao-de-clientes",
+            "faq-atendimento-item-15-cliente-diz-que-e-platinum-existe-esse-tier"
+        ]
+    },
+    {
+        "question": "Frete para 600kg para Manaus?",
+        "expected_chunk_prefixes": [
+            "proc-042-v2-frete-especial-revisado-2-formula-de-calculo",
+            "proc-042-v2-frete-especial-revisado-2-1-multiplicadores-regionais-atualizados-em-novembro-2023"
+        ]
+    }
+]
